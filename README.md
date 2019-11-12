@@ -1,4 +1,4 @@
-Title: Predict bike rental demand 
+Title: Predict bike rental demand               
 Author: Lisa Mok
 
 Dataset: Hourly rental data spanning 2 years, sourced from Kaggle 
