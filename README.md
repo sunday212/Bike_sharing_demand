@@ -9,6 +9,6 @@ Project Details: Bike sharing systems are a means of renting bicycles where the 
 
 Acknowledgements: I would to thank Jason Brownlee of machinelearningmastery.com for his intuitive guide to machine learning which has enabled me to create usable scripts for implementing machine learning and acheiving satisfactory results.
 
-Language: R 
-Main script: bikesharing.py
+Language: R   
+Main script: bikesharing.py 
 Datasets: hour.csv
