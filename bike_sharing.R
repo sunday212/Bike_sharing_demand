@@ -527,7 +527,6 @@ evaluate(dataset_selected_x_holiday, validation_selected_x_holiday )
 #================================================================================
 
 #== Final model ==
-tuneGrid <- expand.grid(.mtry = 9)
 fit.rf <- train(casual~., data=dataset_selected, method="rf", metric="RMSE", tuneGrid=data.frame(mtry = 9), importance= TRUE, nodesize =100, maxnodes = 253, ntree = 20)
 saveRDS(fit.rf, "./finalModel.rds")
 
